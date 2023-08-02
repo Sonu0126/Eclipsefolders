@@ -1,0 +1,22 @@
+let Names = ["Sonika","Subedi",23 , 18]
+let info = {
+    "firstName":"Sonika",
+    "lastName":"Subedi",
+    "age":23,
+    "rollNo":18
+}
+//retrive (dot notation and bracket notation)
+console.log(info.firstName)
+console.log(info['firstName'])
+//add(dot notation and bracket notation)
+info.city = "Belbari"
+info['language'] = "nepali"
+console.log(info)
+//update (dot notation and bracket notation)
+info.city = "irving"
+info['language'] = "english"
+console.log(info)
+//delete  (dot notation and bracket notation)
+delete info.city
+delete info['language']
+console.log(info)
